@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC');
+@import url('https://fonts.googleapis.com/css?family=Anton|Exo');
+*{
+  box-sizing:border-box; 
+  margin:0;
+  padding:0 ;
+
+}
+
+/* Contenedor */
+.contenedor{
+	width: 100%;
+	margin: auto;
+	max-width: 1280px;
+	
+}
+
+/* Calses especiales */
+.borde{
+	border: 1px solid black;
+}
+/* Cuerpo */
+body{
+	background-image: url(../fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* Navegador */
+nav{
+	width: 100%;
+	height: 50px;
+}
+
+.logo{
+	width: 20%;
+	height: 100%;
+	padding: 5px;
+    float: left;
+    text-align: center;
+    background-attachment: fixed;
+    background: #4446;
+   background: rgba(0,0,0,0.4);
+}
+
+.navegacion{
+	width: 50%;
+	height: 100%;
+    float: left;
+    background-attachment: fixed;
+    background: #4446;
+   background: rgba(0,0,0,0.4);
+}
+
+
+.ingreso{
+	width: 30%;
+	height: 100%;
+    float: left;
+    background-attachment: fixed;
+    background: #4446;
+   background: rgba(0,0,0,0.4);
+}
+ul, ol {
+				list-style:none;
+			}
+			
+			.ingreso1> li {
+				float:left;
+			}
+			
+			.ingreso1 li a {
+				background: #721825;
+				color:#fff;
+				text-decoration:none;
+				padding:13px 265%;
+				display:block;
+				border-bottom: 3px solid #ffff;
+			}
+			
+			.ingreso1 li a:hover {
+				background-color:#434343;
+			}
+section#nombreinstitucion{
+	width: 100%;
+	height: 50px;
+	background-attachment: fixed;
+	background: #4446;
+   background: rgba(0,0,0,0.4);
+	color: black;
+	text-align: center;
+	padding: 10px;
+}
+section#nombreinstitucion h1{
+	font-family: 'Exo', sans-serif;
+}
+.titulo2{
+	width: 100%;
+	height: 50px;
+	background-attachment: fixed;
+	text-align: center;
+	background: #4446;
+   background: rgba(0,0,0,0.4);
+}
+section#descripcion{
+	width: 100%;
+	height: 550px;
+}
+
+.cj2{
+	 width: 100%;
+    height: 550px;  
+    padding: 20px;
+    float: left;
+    text-align: center;
+    background: rgba(0,0,0,0.5);  
+    padding: 40px;
+}
+table{
+	font-family: arial,sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	padding: 10px
+	color: #fff;
+}
+th{
+   text-align:center;
+   background: #666;
+   color: #fff;
+}
+td, th{
+	border: 1px solid #dddddd;
+	padding: 10px;
+}
+td{
+	color: #fff;
+	background-color: ;
+}
+tr:nth-child(even){
+	background-color: #111111;
+	color: #fff;
+}
+.centrar-opc{
+	text-align: center;
+	font-size: 1.5em;
+}
+.fas.fa-check-circle{
+	background: #0CA0E8;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.fas.fa-trash-alt{
+	background: #00ADB5;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.fas.fa-save{
+	background: #6FB9D4;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}.fas.fa-user-edit{
+	background: #0284A8;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}

@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+.contenedor{
+  width: 100%;
+  margin: auto;
+  max-width: 1280px;
+}
+body{
+  background-image: url(../fondo.jpg);
+  background-size: 100% 100%;
+    background-attachment: fixed;
+}
+form{
+   width: 80%;
+   margin: auto;
+   margin-top: 20px;
+   padding: 40px;
+   background: #4446;
+   background: rgba(0,0,0,0.4);
+   border-radius: 10px;
+
+}
+
+form .formulario-enc{
+text-align: center;
+padding: 20px;
+border-bottom: 1px solid white;
+}
+form legend{
+  display: inline-block;
+  background: #111;
+  padding: 7px;
+  border-radius: 10px;
+  color: #fff;
+  border-bottom: 2px solid white; 
+}
+form .formulario-cuerpo{
+padding: 20px;
+color: #fff;
+border-bottom: 1px solid white;   
+}
+
+form .formulario-pie{
+ padding: 20px;
+ text-align: center;
+}
+form a{
+  display: inline-block;
+  padding: 15px;
+  background: #111;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border-bottom: 2px solid white; 
+}
+form a:hover{
+  background: rgba(0,0,0,0.5);
+
+}
+form label, form input{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  margin-top: center;
+
+}
+form label{
+  width: 30%;
+  text-align: right;
+  background: rgba(0,0,0,0.5);
+}
+form input{
+  width: 50%;
+}

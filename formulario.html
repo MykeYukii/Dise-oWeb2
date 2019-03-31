@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Registro Usuario</title>
+	<link rel="shortcut icon" href="../img/logo.png">
+	<link rel="stylesheet" href="css/estilos_registro.css">
+</head>
+<body>
+	<div class="contenedor">
+		<form>
+			<div class="formulario-enc">
+				<h1>Formulario</h1>
+			</div>
+			<form action="/action_page.php">
+				<fieldset>
+					<legend>Informacion Personal</legend>
+			<div class="formulario-cuerpo">
+               
+
+               <div>
+                <label for="Documento">Tipo de Documento: </label>
+                <select name="Documento">
+                  <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                  <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+                  <option value="Cedula de Extranjeria">Cedula de Extranjeria</option>
+                  <option value="Pasaporte">Pasaporte</option>
+                  <option value="Documento Nacional de Identidad">Pasaporte</option>
+                  <option value="Numero de Identificacion Tributaria">Numero de Identificacion Tributaria</option>
+               </select></div>
+
+               <div>
+                <label for="Numero de Documento">Numero de Documento: </label>
+                <input type="text" id="Usuario" placeholder="Numero de Documento">
+               </div>
+
+               <div>
+                <label for="Nombres">Nombres: </label>
+                <input type="text" id="Usuario" placeholder="Nombres">
+               </div>
+
+                <div>
+               	<label for="Apellidos">Apellidos: </label>
+               	<input type="text" id="Usuario" placeholder="Apellidos">
+               </div>
+
+                <div>
+                <label for="Fecha de Nacimiento">Fecha de Nacimiento: </label>
+                <input type="date" id="date" placeholder="Fecha de Nacimiento">
+               </div>
+
+                <div>
+               	<label for="Direccion">Direccion: </label>
+               	<input type="text" id="Direccion" placeholder="Direccion">
+                </div>
+
+                <div>
+                	<label for="Telefono">Telefono: </label>
+                	<input type="number" id="Telefono" placeholder="Telefono" >
+                </div>
+
+                <div>
+                <label for="Departamento">Departamento: </label>
+                <select name="Departamento">
+                  <option value="Amazonas">Amazonas</option>
+                  <option value="Arauca">Arauca</option>
+                  <option value="Bogotá">Bogotá</option>
+                  <option value="Caldas">Caldas</option>
+                  <option value="Cordoba">Cordoba</option>
+                  <option value="Magdalena">Magdalena</option>
+                  <option value="Putumayo">Putomayo</option>
+                  <option value="Vichada">Vichada</option>
+               </select></div>
+
+                <div>
+                <label for="Numero de Documento">Numero de Documento: </label>
+                <input type="text" id="Usuario" placeholder="Numero de Documento">
+               </div>
+             </form>
+			</div>
+			<div class="formulario-pie">
+				<a href="consultar-usuarios.html">Tabla</a>
+			</div>
+      </fieldset>
+		</form>
+	</div>
+	
+</body>
+</html>
